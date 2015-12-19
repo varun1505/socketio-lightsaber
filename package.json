@@ -1,0 +1,10 @@
+{
+    "name": "LightSaber",
+    "version": "0.0.1",
+    "description": "Real time web game",
+    "dependencies": {
+        "express": "latest",
+        "socket.io": "latest"
+    },
+    "author": "varun1505"
+}

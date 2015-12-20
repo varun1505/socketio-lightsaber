@@ -33,7 +33,8 @@ $(document).ready(function(){
 
 	var data = {};
 	
-	var socket = io.connect('http://192.168.1.129:3700');
+	//var socket = io.connect('http://192.168.1.129:3700');
+	var socket = io.connect(window.location.href);
 	socket.on('notif', function(data){
 		$('#saber').rotate(data.x);
 		/*tiltLR = data.x;
